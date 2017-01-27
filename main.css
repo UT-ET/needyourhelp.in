@@ -1,0 +1,33 @@
+
+.stretch {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.header {
+    flex-grow: 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.middle {
+    flex-grow: 1;
+}
+
+.footer {
+    flex-grow: 0;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+body {
+    background: #FDF7DD;
+}
